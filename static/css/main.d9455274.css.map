@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.d9455274.css","mappings":"AAAA,EAGE,qBAAqB,CADrB,QAAS,CADT,SAGF,CAEA,MACE,sBACF","sources":["index.css"],"sourcesContent":["* {\n  padding: 0;\n  margin: 0;\n  font-family:Helvetica;\n}\n\n.hide {\n  display: none !important;\n}"],"names":[],"sourceRoot":""}
