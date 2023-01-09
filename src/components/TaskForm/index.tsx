@@ -62,8 +62,10 @@ const TaskForm = ({
       <S.InputContainer>
         <S.InputLabel htmlFor="title">Título</S.InputLabel>
         <S.InputText
+        type="text"
           name="title"
           placeholder="Título da tarefa"
+          autoComplete="off"
           onChange={handleChange}
           value={title}
         />
@@ -71,8 +73,10 @@ const TaskForm = ({
       <S.InputContainer>
         <S.InputLabel htmlFor="difficulty">Dificuldade:</S.InputLabel>
         <S.InputText
+        type="number"
           name="difficulty"
           placeholder="Dificuldade da tarefa"
+          autoComplete="off"
           onChange={handleChange}
           value={difficulty}
         />

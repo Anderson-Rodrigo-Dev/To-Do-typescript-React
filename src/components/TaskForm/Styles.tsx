@@ -18,9 +18,7 @@ export const InputLabel = styled.label`
   margin-bottom: 0.4em;
 `;
 
-export const InputText = styled.input.attrs({
-  type: "text",
-})`
+export const InputText = styled.input`
   padding: 8px 15px;
   margin-bottom: 1.5em;
   border-radius: 0;
